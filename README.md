@@ -1,10 +1,10 @@
 <div align="center" id="top">
-	<img style="display: inline;" width="100%" src="./assets/images/Logo.svg" />
+	<img style="display: inline;" width="100%" src="./assets/images/logo.jpg" />
   <h1>
-    React 前端工程师学习路径
+    Vue前端工程师学习路径
   </h1>
   <p>
-    React 是一个用于构建用户界面的 JavaScript 库，具有优秀的性能，并且它的声明式、组件化特性让编写代码变得简单。这条学习路径将带你熟悉前端开发的基础知识，然后深入学习 React、React Router 及 Redux 等关键组件，熟悉 ESLint、Webpack 等常用工具，最后还会涉及小程序开发、跨平台移动端开发、服务器端渲染等热门话题，最终成为一名优秀的 React 前端工程师。
+    Vue 是一套用于构建用户界面的渐进式框架，自下而上逐层应用，core库只关注与视图层，使得上手简单。这条学习路径将带你熟悉前端开发的基础知识，然后深入学习 Vue、Vue Router 及 Redux 等关键组件，熟悉 ESLint、Webpack 等常用工具，最后还会涉及小程序开发、跨平台移动端开发、服务器端渲染等热门话题，最终成为一名优秀的 Vue 前端工程师。
   </p>
 </div>
 
@@ -101,7 +101,7 @@
 > HTML（超文本标记语言——HyperText Markup Language）是构成 Web 世界的一砖一瓦。它定义了网页内容的含义和结构。除 HTML 以外的其它技术则通常用来描述一个网页的表现与展示效果（如 CSS），或功能与行为（如 JavaScript）。
 
 
-#### 知识点 
+#### 知识点
 
 1. 学习 HTML 的基础知识
 2. HTML 语法
@@ -229,24 +229,24 @@
 ---
 
 <div align="center">
-<img style="display: inline;" width="100" height="100" src="./assets/images/react-1.svg">
+<img style="display: inline;" width="100" height="100" src="./assets/images/vue-logo.png">
 
-### React
+### Vue
 </div>
 
-> React 是一个用于构建用户界面的 JAVASCRIPT 库。React 主要用于构建UI，很多人认为 React 是 MVC 中的 V（视图）。React 起源于 Facebook 的内部项目，用来架设 Instagram 的网站，并于 2013 年 5 月开源。React 拥有较高的性能，代码逻辑非常简单，越来越多的人已开始关注和使用它。
+> Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与现代化的工具链以及各种支持类库结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。
 
 #### 知识点
 
-1. JSX，ReactDOM.render，Component 和 Props，State，处理事件，条件渲染，循环和 key，表单
-2. 深入理解 JSX，React 中使用样式和静态资源，React LifeCycle Hooks，可控组件，Lifting State Up，高阶组件，Refs，静态属性检查
-3. 请求 API，Context，React Hooks
+1. 声明式渲染，条件与循环，模板语法，计算属性和侦听器，时间处理，Style与Class绑定
+2. 深入理解 组件注册，Prop, 自定义事件，插槽，动态/异步组件，状态过渡
+3. Mixins，自定义指令、自定义过滤器
 4. 高级概念
-   1. 错误处理
-   2. Profiler
+   1. 渲染函数&JSX
+   2. 函数式组件
    3. 性能优化
-   4. Portals
-   5. Fragments
+   4. 虚拟Dom
+   5. provide/inject
    6. 可访问性
    7. 代码拆分
    8. Web 组件
@@ -256,9 +256,8 @@
 
 #### 实战教程
 
-- ✅[《一杯茶的时间，上手 React》](https://tuture.co/2019/11/18/07acf61/) 🗝知识点 1
-- ✅[《用 React 做一个井字棋小游戏（一）》](https://tuture.co/2019/11/13/175b717/) 🗝 知识点 1，以及 2 中的 React 中使用样式和静态资源, Lifting State Up
-- ✅[《用 React 做一个井字棋小游戏（二）》](https://tuture.co/2019/11/13/3697248/) 🗝 知识点 1，以及 2 中的可控组件，Lifting State Up
+- ✅[《使用vuejs开发社区网站》](https://github.com/RyunPu/vuejs-essential) 
+- ✅[《用 Vue 做一个网易云音乐》](https://github.com/CaiJinyc/vue-music-webapp)
 - ✍️《React 进阶教程（一）》 🗝知识点 2
 - ✍️《React 进阶教程（二）》 🗝知识点 4.1, 4.2, 4.5, 4.5
 - ✍️《React 进阶教程（三）》 🗝知识点 4.6, 4.8, 4.9, 4.10
